@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Bob
+      CollatzConjecture
       Lib
       Pangram
       SpaceAge

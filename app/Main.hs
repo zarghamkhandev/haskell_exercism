@@ -1,6 +1,8 @@
 module Main (main) where
 
-import Lib (someFunc)
+import CollatzConjecture (collatz)
 
 main :: IO ()
-main = someFunc
+main = do
+  let result = collatz 12
+  print result
