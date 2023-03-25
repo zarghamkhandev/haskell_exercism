@@ -27,6 +27,8 @@ library
   exposed-modules:
       Bob
       Lib
+      Pangram
+      SpaceAge
   other-modules:
       Paths_haskell_exercism_problems
   hs-source-dirs:
