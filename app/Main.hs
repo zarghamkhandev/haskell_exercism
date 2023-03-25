@@ -1,8 +1,8 @@
 module Main (main) where
 
-import CollatzConjecture (collatz)
+import DNA (toRNA)
 
 main :: IO ()
 main = do
-  let result = collatz 12
+  let result = toRNA "string"
   print result

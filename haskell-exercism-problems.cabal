@@ -27,6 +27,7 @@ library
   exposed-modules:
       Bob
       CollatzConjecture
+      DNA
       Lib
       Pangram
       SpaceAge
